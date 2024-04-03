@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    border: 0;
+    font-family: "Inter", sans-serif;
+    }
+    
+    .logo{
+    width: 2rem;
+    }
+    
+    .container{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem;
+    
+    @media(min-width: 320px) and (max-width: 768px){
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    }}
+    
+    .digite{
+    width: 80vw;
+    height: 30vh;  
+    @media(min-width: 320px) and (max-width: 768px){
+    width: 60vw;
+    height: auto;
+    }
+    }
+    
+    
+    .box{
+    display: flex;
+    background-color: rgba(205, 226, 243, 0.24);
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color:rgb(47, 47, 73);
+    height: 20vh;
+    width: 30vw;
+    
+    @media(min-width: 320px) and (max-width: 768px){
+    width: 55vw;    
+    height: auto;       
+    }    
+    }
+    
+    .alerta{    
+    align-items: center;
+    width: 30vw;
+    height: 5vh;   
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+    @media(min-width: 320px) and (max-width: 768px){
+    width: 75vw;
+    height: auto;
+    }
+    }
+    
+    .exclama{
+        width: 1.5rem;
+    }
+    
+    .botoes{
+    width: 20rem;   
+    justify-content: space-between;
+
+    @media(min-width: 320px) and (max-width: 768px){
+    display: flex;
+    width: 10rem;   
+    gap: 0.6rem;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    }
+}
+    
+    .cripto{
+    border-radius: 12px;
+    background-color: rgb(47, 47, 73);
+    color: silver;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    }
+    
+    .descripto{
+    border-radius: 12px;
+    background-color: silver;
+    color: rgb(47, 47, 73);
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+    
+    .quadradinho{
+    @media(min-width: 320px) and (max-width: 768px){
+    visibility: hidden;
+    }
+    }
+    
+    #resultado{
+    @media(min-width: 320px) and (max-width: 768px){
+    width: 85vw;    
+    }
+    }
+    
+    .mensagem{
+    font-size: 1.1em;
+    font-weight: bold;
+    
+    @media(min-width: 320px) and (max-width: 768px){
+    font-size: 1.2rem;;
+    }
+    }
+    
+    .pedido{
+    font-size: 0.8rem;
+    @media(min-width: 320px) and (max-width: 768px){
+    font-size: 0.6rem;;
+    }
+    }
+    
+    #copiar{
+    border-radius: 12px;
+    background-color: rgb(47, 47, 73);
+    color: silver;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    }
+    
+    footer{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    font-size: 0.6rem;
+    background-color: rgba(205, 226, 243, 0.24);
+    
+    @media(min-width: 320px) and (max-width: 768px){
+    visibility: hidden;
+    }
+}

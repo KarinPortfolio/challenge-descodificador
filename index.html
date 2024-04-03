@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decriptador</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="logo"><img src="./images/alura.svg" alt="logo"/></header>
+
+        <main class="container">
+
+            <section class="digite">
+                <textarea id="entrada" rows="6" cols="50" placeholder="Digite seu texto" class="box"></textarea> 
+                <p class="alerta"><img src="./images/exclamation.png" class="exclama" alt="alerta" /> 
+                Apenas letras minúsculas e sem acento.</p>
+
+                <div class="botoes">
+                    <button onclick="criptografar()" class="cripto">Criptografar</button>
+                    <button onclick="descriptografar()" class="descripto">Descriptografar</button>
+                </div>
+            </section>
+           
+            
+<section>
+<div id="resultado">
+    <img class="quadradinho" src="./images/quadradinho.svg" alt="desenho de uma pessoa segurando um diamante" /> 
+    <textarea  class="boxresult" id="saida" style="width: 30vw; height: 20vh;" type="text"></textarea>
+        <p class="mensagem">Nenhuma mensagem encontrada</p>
+    <p class="pedido">Digite um texto que você deseja criptografar ou descriptografar.</p>        
+    <button id="copiar">Copiar</button>
+</div>    
+        
+</section>
+
+        </main>
+
+        <footer><hr> 
+            <p>Challenge One-T6 2024 - desenvolvido por Karin Abe</p></footer>
+            <script src="script.js"></script>
+</body>
+</html>
